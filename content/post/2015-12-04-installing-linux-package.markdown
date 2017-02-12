@@ -2,7 +2,7 @@
 categories: linux
 date: 2015-12-04T14:55:00Z
 title: 리눅스 패키지 설치하기
-url: /2015/12/04/리눅스-패키지-설치하기/
+url: /2015/12/04/installing-linux-package/
 ---
 
 ## Ubuntu

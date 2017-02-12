@@ -2,7 +2,7 @@
 categories: aws
 date: 2015-11-28T18:40:00Z
 title: AWS EBS 확장및 추가하기
-url: /2015/11/28/aws-EBS-확장및-추가하기/
+url: /2015/11/28/adding-and-expending-aws-EBS/
 ---
 
 AWS EC2의 디스크가 Full이 되어 확장이 필요했다.

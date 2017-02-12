@@ -2,7 +2,7 @@
 categories: etc
 date: 2015-11-10T23:56:57Z
 title: Making & Testing Multiboot USB
-url: /2015/11/10/멀티-부팅-USB-제작과-테스트/
+url: /2015/11/10/testing-and-making-multi-booting-usb/
 ---
 
 ## 개요
