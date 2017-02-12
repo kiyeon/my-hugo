@@ -1,0 +1,18 @@
+---
+categories: linux
+comments: true
+date: 2015-06-23T17:22:51Z
+published: false
+tags: tools
+title: Tmux
+url: /2015/06/23/tmux/
+---
+
+* [A tmux Crash Course](https://robots.thoughtbot.com/a-tmux-crash-course)
+
+## tmux manager
+  * [tmuxp](http://tmuxp.readthedocs.org/)
+  * [Using Tmux and Tmuxinator](http://aokolish.me/blog/2013/02/12/using-tmux-and-tmuxinator/)
+  * http://zanshin.net/2014/07/02/using-teamocil-to-manage-tmux-sessions/
+  * [Using Tmux and Tmuxinator](http://aokolish.me/blog/2013/02/12/using-tmux-and-tmuxinator/)
+

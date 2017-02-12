@@ -1,0 +1,14 @@
+---
+categories: linux
+comments: true
+date: 2015-06-23T17:19:42Z
+published: false
+tags: shell
+title: ZSH
+url: /2015/06/23/zsh/
+---
+
+* [Why Zsh is cooler than your shell](http://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692)
+* [My Extravagant Zsh Prompt](http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/)
+* [A Beautifully Productive Terminal Experience](http://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience/)
+* [Hey Prezto - Zsh for Command Line Heaven](http://jr0cket.co.uk/2013/09/hey-prezto-zsh-for-command-line-heaven.html)

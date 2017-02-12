@@ -1,0 +1,81 @@
+---
+categories: vim
+comments: true
+date: 2015-06-12T10:08:44Z
+title: VIM
+url: /2015/06/12/vim/
+---
+
+나는 [vim]을 좋아하는데 그 이유는
+
+  * 마우스 사용을 최소화하여 키보드로만 작업이 가능하고,
+  * 프로그램이 작고 가볍고,
+  * 그렇기에 웬만한 머신에는 [vim] 또는 vi가 설치되어있어 쉽게 에디팅이 가능하기 때문이다.[^1]
+
+<!--more-->
+
+해서 웬만한 키보드 작업을 [vim]화 시키고 있는데
+
+  * Chrome은 [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en-US)
+  * Eclipse에서는 [Vrapper](http://marketplace.eclipse.org/content/vrapper-vim)
+  * SublimeText에서는 [Vintage Mode](https://www.sublimetext.com/docs/2/vintage.html)
+  * Shell에서는 '[set](http://ss64.com/bash/set.html) -o vi'
+를 사용하며 유명한 웹에디터들은 [vim]모드를 지원하고 있어 가능하다면 찾아쓰는 편이다.[^2]
+
+[vim]은 [Vi IMproved의 약자로 Bill Joy의 vi를 개선한 버전이다](http://en.wikipedia.org/wiki/Vim_\(text_editor\)).
+
+[vim]을 처음 설치하고 실행해보면 굉장히 초라한 툴처럼 보이지만 많은 기능들이 집약된 강력한 툴이다.  모든 설정을 텍스트로 할 수 있는데 해당 설정만 있다면 어디서든 동일한 환경을 구축 할 수 있다는게 장점이다. 이런 환경설정과 다양한 플러그인들을 조합하면 화려한 개발환경으로 변모한다. 즉, 사용자의 입맛대로 툴을 꾸밀 수 있다는게 최대 장점이다.[^3]
+
+물론 그런만큼 처음 사용하는데 진입장벽이 높긴하며 설정에 많은 시간을 할애해야 한다.
+
+내가 생각하는 vim의 장점
+
+  * 가볍고 빠르다.
+  * 모든 작업을 키보드만으로 할 수 있다.(mouse free)
+  * 탭과 화면분할기능이 있고 현재 값을 세션파일에 저장하여 사용 할 수 있다.
+  * syntax highlight기능이 있으며 직접 설정을 추가하거나 변경할 수 있다.
+  * 환경설정과 플러그인, 서드파티 프로그램들을 사용하여 취향에 맞게 꾸밀 수 있다.
+
+
+## Plugins
+  * [Vundle](http://github.com/gmarik/vundle) - vundle makes it easy to find and install plugins without ever leaving the Vim environment. 
+  * [VOoM](http://vim-voom.github.io/) - VOoM (Vim Outliner of Markups) is a plugin for text editor Vim that turns Vim into a two-pane outliner.
+
+
+## Useful site
+  * [VimAwesome](http://vimawesome.com/) - Awesome [vim] plugins
+  * [Vim Scripts](http://vim-scripts.org/)
+  * [usevim](http://usevim.com/)
+  * [vim cheat sheet](http://vim.rtorr.com/lang/ko/)
+  * [vi / vim graphical cheat sheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
+
+
+## Tip
+  * `:set mouse=a` : vim에서 마우스 사용[^vim-mouse]
+  * `zz` : 현재 커서가 있는 라인을 화면 가운데로 스크롤한다. `H`:커서를 화면 첫라인으로, `M`:커서를 화면 중간라인으로, `L`:커서를 화면 마지막라인으로 이동, `gg`는 파일의 최상단 라인으로 이동, `G`는 파일의 최하단 라인으로 이동.
+  * `ZZ` : 저장하고 종료한다. `:wq`와 동일.
+  * `Ctrl-v + Shift+i` : 비주얼 블럭모드에서 세로로 스크롤한뒤 `Shift+i`를 하면 입력모드가 되는데 입력을 마친뒤 `esc`를 누르면 세로선택된 모든 행에 입력내용이 기록된다.
+  * `*` : 단어에서 `*`를 누르면 해당 단어들이 highlight된다. `n`이나 `N`으로 이동할 수 있다.
+  * `Ctrl+g` : 현재 파일명과 상태및 위치정보
+  * `vim +X filename` or `:X` : 보안 파일 만들기. 이 옵션을 사용하면 `Enter encryption key:`를 입력받고 내용은 모두 암호화된다. 보거나 편집을 하려면 패스워드를 입력해야 한다.[^4]
+  * [installing subversion and vim on a shared host](http://www.mcdruid.co.uk/content/installing-subversion-and-vim-on-a-shared-host) - local 계정에 최신버전 설치방법
+  * `vim -Nu {vimrc}` or `:so %MYVIMRC`[^reload-vimrc] - 환경파일 경로 지정 또는 실행중 설정 리로드
+
+
+
+
+[^1]: emacs는 꼭 다뤄보고 싶은 툴중 하나인데 그 전단계에서 vim에 너무 익숙해저버렸다. 하지만 꼭 환경을 emacs화 하고 싶다.
+[^2]: 나는 단축키를 사랑한다.
+[^3]: vim [screenshot](https://www.google.co.kr/search?q=vim&es_sm=93&tbm=isch&tbo=u&source=univ&sa=X&ved=0CDQQsARqFQoTCPXB1YOBicYCFUUTvAodWvgA1Q&biw=950&bih=1094#imgrc=_)
+[^4]: [20 Unix Command Line Tricks – Part I](http://www.cyberciti.biz/open-source/command-line-hacks/20-unix-command-line-tricks-part-i/)
+[^vim-mouse]: 맥의 iterm2에서는 vim과 tmux의 마우스 연동이 잘 된다. [kitty나 putty에서는 tmux에서 vim을 띄우고 마우스휠 다운은 잘 동작하는데 업을 하면 동작하지 않는다](http://superuser.com/a/741752). kitty `0.63.0.7p(2014.03.19)`을 사용하는데 `0.63.0.8(2014.05.01)`에서 [패치](http://www.9bis.net/kitty/?action=news&zone=en)(`Bug fix: mouse scrolling with a huge value in "Lines of scrollback" causes a crash`)됐다. 현재는 `0.63.2.1p(2014.11.26)`를 사용중이다.
+[^reload-vimrc]: [How do you reload your .vimrc file without restarting vim?](http://superuser.com/a/132030)
+
+
+
+
+[vim]: http://www.vim.org
+
+
+
+

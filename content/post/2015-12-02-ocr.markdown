@@ -1,0 +1,29 @@
+---
+categories: utility
+date: 2015-12-02T10:18:00Z
+title: OCR
+url: /2015/12/02/ocr/
+---
+
+[광학 문자 인식(Optical character recognition; OCR)](https://ko.wikipedia.org/wiki/%EA%B4%91%ED%95%99_%EB%AC%B8%EC%9E%90_%EC%9D%B8%EC%8B%9D)  
+![OCR](https://janusit.files.wordpress.com/2008/12/300_cpen20reading.jpg)
+
+
+
+## Software
+* [ABBYY FineReader](http://www.abbyy.com/finereader/) - [문자 인식(OCR) 책 스캔 프로그램 추천 : 한글 영문 인식률 결과](http://chanyong.tistory.com/69)
+
+
+
+## Online OCR services
+* [WeOCR](http://ocr1.sc.isc.tohoku.ac.jp/e1/)
+* [CustomOCR](http://www.customocr.com/index.php?r=site/page&view=demos.tesseract_ocr)
+* [Free OCR](http://www.free-ocr.com/)
+* [i2OCR](http://www.i2ocr.com/)
+
+
+
+## Open source
+* [Tesseract](https://github.com/tesseract-ocr/tesseract) - Tesseract Open Source OCR Engine (main repository)
+  * [3rdParty](https://github.com/tesseract-ocr/tesseract/wiki/3rdParty)
+
