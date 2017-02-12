@@ -4,3 +4,6 @@
 [submodule "themes/hugo-bootstrap-premium"]
 	path = themes/hugo-bootstrap-premium
 	url = https://github.com/appernetic/hugo-bootstrap-premium
+[submodule "themes/blackburn"]
+	path = themes/blackburn
+	url = https://github.com/yoshiharuyamashita/blackburn.git
